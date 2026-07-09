@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-localflavor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-31 08:16+0200\n"
+"POT-Creation-Date: 2026-07-09 19:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,7 +370,7 @@ msgid ""
 "states."
 msgstr ""
 
-#: br/forms.py:77 br/models.py:42 br/validators.py:79
+#: br/forms.py:77 br/models.py:42 br/validators.py:92
 msgid "Invalid CPF number."
 msgstr ""
 
@@ -378,15 +378,15 @@ msgstr ""
 msgid "This field requires at most 11 digits or 14 characters."
 msgstr ""
 
-#: br/forms.py:109 br/validators.py:41
+#: br/forms.py:112 br/validators.py:45
 msgid "Invalid CNPJ number."
 msgstr ""
 
-#: br/forms.py:110
+#: br/forms.py:113
 msgid "This field requires at least 14 digits"
 msgstr ""
 
-#: br/forms.py:133
+#: br/forms.py:142
 msgid "Invalid Process number."
 msgstr ""
 
@@ -398,11 +398,11 @@ msgstr ""
 msgid "CPF Document"
 msgstr ""
 
-#: br/models.py:67
+#: br/models.py:69
 msgid "CNPJ Document"
 msgstr ""
 
-#: br/models.py:88 lk/models.py:34 np/models.py:33
+#: br/models.py:97 lk/models.py:34 np/models.py:33
 msgid "Postal Code"
 msgstr ""
 
@@ -5618,58 +5618,58 @@ msgstr ""
 msgid "Business Identifier Code"
 msgstr ""
 
-#: generic/validators.py:187
+#: generic/validators.py:197
 #, python-format
 msgid "%(character)s is not a valid character for IBAN."
 msgstr ""
 
-#: generic/validators.py:211
+#: generic/validators.py:221
 #, python-format
 msgid "%(country_code)s IBANs must contain %(number)s characters."
 msgstr ""
 
-#: generic/validators.py:218
+#: generic/validators.py:228
 #, python-format
 msgid "%(country_code)s is not a valid country code for IBAN."
 msgstr ""
 
-#: generic/validators.py:224
+#: generic/validators.py:234
 #, python-format
 msgid "%(country_code)s IBANs are not allowed in this field."
 msgstr ""
 
-#: generic/validators.py:230 generic/validators.py:236
+#: generic/validators.py:240 generic/validators.py:246
 msgid "Not a valid IBAN."
 msgstr ""
 
-#: generic/validators.py:262
+#: generic/validators.py:272
 msgid "BIC codes have either 8 or 11 characters."
 msgstr ""
 
-#: generic/validators.py:266
+#: generic/validators.py:276
 msgid "BIC codes only contain alphabet letters and digits."
 msgstr ""
 
-#: generic/validators.py:272
+#: generic/validators.py:282
 #, python-format
 msgid "%(institution_code)s is not a valid institution code."
 msgstr ""
 
-#: generic/validators.py:281 generic/validators.py:379
+#: generic/validators.py:291 generic/validators.py:389
 #, python-format
 msgid "%(country_code)s is not a valid country code."
 msgstr ""
 
-#: generic/validators.py:290
+#: generic/validators.py:300
 #, python-format
 msgid "%(location_code)s is not a valid location code."
 msgstr ""
 
-#: generic/validators.py:304
+#: generic/validators.py:314
 msgid "Not a valid EAN code."
 msgstr ""
 
-#: generic/validators.py:380
+#: generic/validators.py:390
 #, python-format
 msgid "%(vatin)s is not a valid VAT identification number."
 msgstr ""
